@@ -2,14 +2,23 @@
     width: 200px;
     height: 175px;
     float: left;
+    position: relative;
+    top: 225px;
+    left: 100px;
 }
 #mainpageFindMatchButton {
     width: 200px;
     height: 175px;
     float: left;
+    position: relative;
+    top: 225px;
+    left: 200px;
 }
 #mainpageMessagesButton {
     width: 200px;
     height: 175px;
     float: left;
+    position: relative;
+    top: 225px;
+    left: 300px;
 }

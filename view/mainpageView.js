@@ -1,4 +1,3 @@
-mainpageView();
 function mainpageView() {
     let html = '';
     html += `
@@ -10,11 +9,9 @@ function mainpageView() {
 
     </div>
     <div class="content">
-        <div class="navigate">
-            <button id="mainpageYourProfileButton">Din Profil</button>
-            <button id="mainpageFindMatchButton">Søk i Single</button>
-            <button id="mainpageMessagesButton">Meldinger</button>
-        </div>
+        <button id="mainpageYourProfileButton">Din Profil</button>
+        <button id="mainpageFindMatchButton">Søk i Single</button>
+        <button id="mainpageMessagesButton">Meldinger</button>
     </div>
     <div class="footer">
 

@@ -21,13 +21,13 @@ const model = {
     },
 
     userProfile: {
-        firstname: '',
-        age: '',
-        gender: '',
-        genderWanted: '',
-        zipcode: '',
-        profile_image: '',
-        description: '',
+        firstname: 'Kåre',
+        age: '70',
+        gender: 'Mann',
+        genderWanted: 'Kvinne',
+        zipcode: 'Må endres',
+        profile_image: 'grid.png',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nobis ipsam minima sit soluta magnam, quo temporibus, modi, rerum error quaerat suscipit maiores? Commodi magni, optio ut omnis quos modi!',
 
     },
 
