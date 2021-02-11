@@ -1,5 +1,6 @@
 let htmlDiv = document.getElementById('app');
 
+
 function registerView() {
     let html = '';
 

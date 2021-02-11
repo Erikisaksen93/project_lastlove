@@ -1,5 +1,4 @@
-let questions = document.getElementById('questions');
-
+let questions;
 
 const getZip = (value) => {
     model.register.zipcode = parseInt(value);
@@ -21,8 +20,9 @@ const getDateOfBirth = (value) => {
 }
 
 
-function question1(selected) {
 
+function question1(selected) {
+    questions = document.getElementById('questions');
     if (selected == 'mann') {
         model.register.genderWanted = selected;
         questions.innerHTML = `
@@ -42,7 +42,7 @@ function question1(selected) {
 };
 
 function question2(selected) {
-    
+    questions = document.getElementById('questions');
     if (selected == 'mann') {
         model.register.gender = selected;
         questions.innerHTML = `
@@ -63,6 +63,7 @@ function question2(selected) {
 };
 
 function question3() {
+        questions = document.getElementById('questions');
         questions.innerHTML = `
                             <p class="navigateQuestion">Da skal vi prøve å finne noen i nærheten! Hva er fornavnet ditt?</br></p>
                             <input onchange="getFirstname(this.value);" class="inputForQuestions" type="text" placeholder="Fornavn" /> </br>
@@ -71,6 +72,7 @@ function question3() {
 };
 
 function question4() {
+    questions = document.getElementById('questions');
     questions.innerHTML = `
                         <p class="navigateQuestion">Så fint navn! Hva er etternavnet ditt?</br></p>
                         <input onchange="getSurname(this.value);" class="inputForQuestions" type="text" placeholder="Etternavn" /> </br>
@@ -79,6 +81,7 @@ function question4() {
 };
 
 function question5() {
+    questions = document.getElementById('questions');
     questions.innerHTML = `
                         <p class="navigateQuestion">Da er det også notert 😇</br> Når er du født?</p>
                         <input onchange="getDateOfBirth(this.value);" class="inputForQuestions" type="date"/> </br>
@@ -87,5 +90,6 @@ function question5() {
 };
 
 function question6() {
+    questions = document.getElementById('questions');
 
 };
