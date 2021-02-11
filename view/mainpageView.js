@@ -1,3 +1,4 @@
+
 function mainpageView() {
     let html = '';
     html += `

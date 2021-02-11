@@ -1,10 +1,10 @@
 let htmlDiv = document.getElementById('app');
 
+registerView();
 function registerView() {
     let html = '';
-    
-    
-    html += `
+
+    html = `
             <div class="mainContent">
                 <div class="header">
                     
@@ -13,11 +13,15 @@ function registerView() {
                     
                 </div>
                 <div class="content">
-                    <h4>Velkommen til <i>Siste kjærlighet</i> 💕</h4>
+                    <h4 class="headline">Velkommen til <i>Siste kjærlighet</i> 💕</h4>
                     <div class="navigate">
-                        <form action="#">
-                        
-                        </form>
+                        <div id="questions">
+                            <p class="navigateQuestion">
+                                Hva leter du etter?
+                            </p>
+                            <button class="registerButtons" onclick="question1('mann')">Jeg leter etter en mann</button> </br>
+                            <button class="registerButtons" onclick="question1('kvinne')">Jeg leter etter en kvinne</button>
+                        </div>
                     </div>
                 </div>
                 <div class="footer">
@@ -26,5 +30,5 @@ function registerView() {
             </div>
            `;
 
-           htmlDiv.innerHTML = html;
+           htmlDiv.innerHTML += html;
 }

@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+.headline {
+    position: relative;
+    left: 1vw;
+    font-size: 2.5em;
+}
+
+.navigate {
+    position: relative;
+    left: 10vw;
+    top: 15vh;
+}
+
+.registerButtons {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.registerButtons:hover {
+    background-color: rgb(101, 214, 101);
+}
+
+.navigateQuestion {
+    position: relative;
+    left: -1vw;
+    width: 310px;
+    height: 80px;
+    font-size: 1.5em;
+    text-align: center;
+}
