@@ -1,0 +1,56 @@
+Det er veldig viktig at siden er lett å finne fram på. Minst mulig ting på siden. 
+Det skal være store knapper. med stor skrift, der det ikke er tvil hva man kan/skal gjøre.
+
+Starside:
+
+Mulighet for å logge inn og lage ny bruker.
+
+logge inn: 
+	Man logger inn med epostadresse? og passord. og kommer inn på hovedsiden.
+
+registrere:
+	1. Når man trykker på registrer knappen, så kommer det opp en stor boks(aka Reggie) der man får beskjed om å fylle inn fornavn og en knapp der det står neste på.
+	2. Reggie endrer innhold til å be om etternavn. med samme neste knapp.
+	3. Reggie endrer innhold til å be om alder. neste.
+	4. Reggie ber om kjønn. neste.
+	5. Reggie ber om hvilket kjønn personen søker. neste.
+	6. Reggie ber om hvor man bor?
+	7. Reggie ber om epostadresse/telefonnummer?. neste. 
+	8. Reggie ber brukeren lage et passord. og sier klart ifra at dette må de huske eller skrive ned.
+
+
+hovedside:
+	På hovedsiden får man 3 muligheter. Man kan trykke på en knapp for å se sin egen profil, eller trykke på en knapp for å finne mulige kandidater.
+	Og til sist en knapp for å se meldinger.
+
+egen profil:
+	På egen profil, ser man et bilde av seg selv. og informasjon om seg selv. Er brukeren ny, så vil man bli guidet igjennom alt dette med engang man har registrert en bruker.
+	Alt er satt opp sånn som andre vil se profilen og man kan trykke på alt for å endre informasjonen der.
+	Informasjonen vil være alder, kjønn hva man søker etter fornavn og en beskrivelse av seg selv. Og hvor man bor.
+
+mulige kandidater:
+	På denne siden får man opp en liste over bilder av andre profiler som matcher det man søker.
+	Sammen med bildet står det fornavn og alder.
+	Man har mulighet for å trykke inn på hvilket som helst av bildene og se hele brukerens profil. 
+	På profilsiden ser man det samme som sin egen profil, men i tillegg en knapp som tar deg tilbake til alle profilene, og en knapp for å sende melding til kandidaten. Skal kunne sende hjerte til kandidaten.
+
+	sende melding:
+	Trykker man på knappen for å sende melding får man opp en side med profilbildet, navn og alder til kandidaten øverst til høyre.
+	mesteparten av skjermen er til å se meldinger som har blitt skrevet, og nederst har man et tekstfelt for å skrive en ny melding.
+
+meldinger:
+	På meldinger siden får man opp en liste av kandidater som man har sendt/mottat meldinger fra. (likt som på muligekandidater siden). 
+	Kandidatene er sortert etter den man sendte/fikk melding av sist.
+	Man kan trykke på en kandidat og få opp en side lik som siden for å sende melding.
+	Har man fått melding fra noen skal det være en indikator for det på meldingknappen på hovedsiden.
+ 	Og når man trykker på den skal det være en indikator på profilen til den som har sendt melding.
+
+
+
+Hva må til?
+
+lage nettside (easy :D)
+lage en tutorial som går igjennom alt man må vite når man har laget en ny bruker (normal)
+En måte å fjerne brukere som ikke har vært online en stund.
+En database som lagrer informasjonen til allebrukerne.
+lage en chattefunksjon som henter og sender informasjon til databasen.
