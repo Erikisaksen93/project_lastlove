@@ -11,7 +11,7 @@
     font-size: 2.5em;
 }
 
-form {
+.navigate {
     position: relative;
     left: 10vw;
     top: 15vh;
@@ -30,4 +30,13 @@ form {
 
 .registerButtons:hover {
     background-color: rgb(101, 214, 101);
+}
+
+.navigateQuestion {
+    position: relative;
+    left: -1vw;
+    width: 310px;
+    height: 80px;
+    font-size: 1.5em;
+    text-align: center;
 }

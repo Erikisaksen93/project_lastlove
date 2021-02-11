@@ -1,4 +1,4 @@
-yourProfileView();
+// yourProfileView();
 function yourProfileView() {
     let html = '';
     html += `
