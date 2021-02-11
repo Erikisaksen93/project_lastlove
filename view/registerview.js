@@ -3,21 +3,25 @@ let htmlDiv = document.getElementById('app');
 function registerView() {
     let html = '';
     
+    
     html += `
             <div class="mainContent">
                 <div class="header">
-                    asd
+                    
                 </div>
                 <div class="profile">
-                asd
+                    
                 </div>
                 <div class="content">
+                    <h4>Velkommen til <i>Siste kjærlighet</i> 💕</h4>
                     <div class="navigate">
-                    asd
+                        <form action="#">
+                        
+                        </form>
                     </div>
                 </div>
                 <div class="footer">
-                asd
+                    
                 </div>
             </div>
            `;
