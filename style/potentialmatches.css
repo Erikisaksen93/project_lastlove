@@ -1,0 +1,12 @@
+#potentialMatchesNextButton {
+    position: absolute;
+    top: 21vh;
+    right: 0.5vw;
+    width: 200px;
+    height: 175px;
+}
+#potentialMatchesHeader {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}

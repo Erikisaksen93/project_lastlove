@@ -2,3 +2,18 @@
     height: 300px;
     width: 350px;
 }
+#backToMainpageButton {
+    width: 200px;
+    height: 175px;
+}
+.userProfileInfo {
+    font-size: x-large;
+    margin: 2px 0 0 5px;
+}
+#userProfileDescription {
+    margin-top: 75px;
+}
+#yourProfileHeader {
+    float: left;
+    margin: 75px 0 0 50px;
+}
