@@ -74,6 +74,7 @@ const model = {
 
     messages: [
         {
+            id: 'aids123',
             profile_image: 'grid.png',
             firstname: 'Karen',
             lastSentMessage: 'Hei hvordan går det?',
@@ -81,8 +82,17 @@ const model = {
             unread: true,
         },
         {
+            id: 'sopp321',
             profile_image: 'grid.png',
-            firstname: 'Karen',
+            firstname: 'Gunn',
+            lastSentMessage: 'Hei hvordan går det?',
+            timestamp: '',
+            unread: true,
+        },
+        {
+            id: 'crab666',
+            profile_image: 'grid.png',
+            firstname: 'Frida',
             lastSentMessage: 'Hei hvordan går det?',
             timestamp: '',
             unread: true,

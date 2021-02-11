@@ -1,12 +1,12 @@
 #allMessagesDiv {
     width: 100%;
-    height: 100%;
+    height: 125%;
     overflow: scroll;
 }
 .oneMessageDiv {
     height: 225px;
     border: 2px solid gray;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 .allMessagesImageDiv {
     width: 150px;

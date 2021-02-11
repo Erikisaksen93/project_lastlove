@@ -5,13 +5,16 @@ function potentialMatchesView() {
     html += `
     <div class="mainContent">
         <div class="header">
-            <button id="backToMainpageButton" onclick="mainpageView();" style="float: left;">Tilbake til hovedsiden</button>
-            <h2 id="potentialMatchesHeader">Dette er profilen til ${match.firstname}.<br> Syntes du ${match.firstname} virket interessant, la ${match.gender == 'Kvinne' ? 'henne' : 'han'} få vite det ved å trykke på hjertet nederst på siden. <br>Du kan også trykke på Meldingknappen nederst på siden for å sende en melding til ${match.firstname}.</h2>
+            <button id="backToMainpageButton" onclick="mainpageView();" style="float: left;">
+                Tilbake til hovedsiden</button>
+            <h2 id="potentialMatchesHeader">
+                Dette er profilen til ${match.firstname}.<br> Syntes du ${match.firstname} virket interessant, la ${match.gender == 'Kvinne' ? 'henne' : 'han'} få vite det ved å trykke på hjertet nederst på siden. <br>Du kan også trykke på Meldingknappen nederst på siden for å sende en melding til ${match.firstname}.
+            </h2>
         </div>
         <div class="profile">
-        <div id="yourProfileImageDiv">
-        <img src="${match.profile_image}" style="width:100%;height:100%;">
-    </div>
+            <div id="yourProfileImageDiv">
+                <img src="${match.profile_image}" style="width:100%;height:100%;">
+            </div>
         </div>
         <div class="content">
             <div id="yourProfileInfo">

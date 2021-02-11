@@ -1,0 +1,17 @@
+#messageProfileImageDiv {
+    width: 300px;
+    height: 450px;
+}
+#sendMessageButton {
+    position: absolute;
+    left: 350px;
+    width: 200px;
+    height: 175px;
+}
+#messageTextarea {
+    position: relative;
+    left: 600px;
+    width: 60vw;
+    height: 175px;
+    font-size: x-large;
+}
