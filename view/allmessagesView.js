@@ -1,4 +1,4 @@
-allMessagesView();
+// allMessagesView();
 function allMessagesView() {
     let html = '';
     html += `
