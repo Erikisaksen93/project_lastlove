@@ -21,21 +21,21 @@
 
 .header {
     grid-area: header;
-    /* background-color: lightblue; */
+    background-color: lightblue;
 }
 
 .profile {
     grid-area: profile;
-    /* background-color: lightcoral; */
+    background-color: lightcoral;
 }
 
 .content {
     grid-area: content;
-    /* background-color: rgb(75, 154, 180); */
+    background-color: rgb(75, 154, 180);
 }
 
 .footer {
     grid-area: footer;
-    /* background-color: rgb(129, 121, 197); */
+    background-color: rgb(129, 121, 197);
 }
  

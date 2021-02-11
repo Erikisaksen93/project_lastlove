@@ -1,12 +1,11 @@
-potentialMatchesView();
 function potentialMatchesView() {
     let match = model.possibleMatches[model.possibleMatchesIndex];
     let html = '';
     html += `
     <div class="mainContent">
         <div class="header">
-            <button id="backToMainpageButton" onclick="mainpageView()" style="float: left;">Tilbake til hovedsiden</button>
-            <h2 id="potentialMatchesHeader">Dette er profilen til ${match.firstname}.<br> Syntes du ${match.firstname} virket interessant, la ${match.gender == 'Kvinne' ? 'henne' : 'han'} få vite det ved å trykke på hjertet nederst til venstre. <br>Du kan også trykke på Meldingknappen nederst til høyre for å sende en melding til ${match.firstname}</h2>
+            <button id="backToMainpageButton" onclick="mainpageView();" style="float: left;">Tilbake til hovedsiden</button>
+            <h2 id="potentialMatchesHeader">Dette er profilen til ${match.firstname}.<br> Syntes du ${match.firstname} virket interessant, la ${match.gender == 'Kvinne' ? 'henne' : 'han'} få vite det ved å trykke på hjertet nederst på siden. <br>Du kan også trykke på Meldingknappen nederst på siden for å sende en melding til ${match.firstname}.</h2>
         </div>
         <div class="profile">
         <div id="yourProfileImageDiv">
@@ -14,7 +13,7 @@ function potentialMatchesView() {
     </div>
         </div>
         <div class="content">
-            <div class="navigate">
+            <div id="yourProfileInfo">
                 <div id="" class="userProfileInfo">${match.firstname}</div>
                 <div id="" class="userProfileInfo">${match.age} år</div>
                 <div id="" class="userProfileInfo">${match.gender}</div>
@@ -25,7 +24,8 @@ function potentialMatchesView() {
             </div>
         </div>
         <div class="footer">
-
+            <button id="potentialMatchHart">Hjerte</button>
+            <button id="potentialMatchMessagesButton">Send Melding til ${match.firstname}</button>
         </div>
     </div>
     `;
