@@ -10,12 +10,9 @@ function yourProfileView() {
         <div id="yourProfileImageDiv">
             <img src="${model.userProfile.profile_image}"  style="width:100%;height:100%;">
         </div>
-        <div id="yourProfileInfo">
-            
-        </div>
     </div>
     <div class="content">
-        <div class="navigate">
+        <div id="yourProfileInfo">
             <div id="" class="userProfileInfo">${model.userProfile.firstname}</div>
             <div id="" class="userProfileInfo">${model.userProfile.age} år</div>
             <div id="" class="userProfileInfo">${model.userProfile.gender}</div>

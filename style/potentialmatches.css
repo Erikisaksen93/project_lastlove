@@ -1,12 +1,27 @@
 #potentialMatchesNextButton {
     position: absolute;
     top: 21vh;
-    right: 0.5vw;
+    right: 2vw;
     width: 200px;
     height: 175px;
 }
 #potentialMatchesHeader {
-    position: relative;
+    position: absolute;
+    width: 80vw;
     top: 10px;
-    left: 50px;
+    left: 250px;
+}
+#potentialMatchHart {
+    width: 200px;
+    height: 175px;
+    background: rgb(195, 65, 65);
+    font-size: xx-large;
+    margin-left: 30vw;
+}
+#potentialMatchMessagesButton {
+    width: 200px;
+    height: 175px;
+    font-size: x-large;
+    position: absolute;
+    right: 30vw;
 }

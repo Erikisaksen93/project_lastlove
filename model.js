@@ -31,7 +31,7 @@ const model = {
 
     },
 
-    possibleMatchesIndex: 0,
+    possibleMatchesIndex: 1,
     possibleMatches: [
         {
             firstname: 'Sara',
@@ -45,7 +45,7 @@ const model = {
         {
             firstname: 'Gunn',
             age: '78',
-            gender: 'Kvinne',
+            gender: 'Mann',
             genderWanted: 'Mann',
             profile_image: 'grid.png',
             zipcode: 'Må endres(by)',
