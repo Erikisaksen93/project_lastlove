@@ -74,9 +74,16 @@ const model = {
 
     messages: [
         {
-            profile_image: '',
-            firstname: '',
-            lastSentMessage: '',
+            profile_image: 'grid.png',
+            firstname: 'Karen',
+            lastSentMessage: 'Hei hvordan går det?',
+            timestamp: '',
+            unread: true,
+        },
+        {
+            profile_image: 'grid.png',
+            firstname: 'Karen',
+            lastSentMessage: 'Hei hvordan går det?',
             timestamp: '',
             unread: true,
         },

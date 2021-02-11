@@ -1,0 +1,27 @@
+#allMessagesDiv {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.oneMessageDiv {
+    height: 225px;
+    border: 2px solid gray;
+    margin-bottom: 2px;
+}
+.allMessagesImageDiv {
+    width: 150px;
+    height: 225px;
+}
+.allMessagesName {
+    position: relative;
+    left: 160px;
+    bottom: 225px;
+    font-size: xx-large;
+    width: 200px;
+}
+.allMessagesLastMessage {
+    position: relative;
+    left: 160px;
+    bottom: 210px;
+    width: 60vw;
+}
