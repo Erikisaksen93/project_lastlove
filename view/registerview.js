@@ -6,7 +6,7 @@ function registerView() {
     html = `
             <div class="mainContent">
                 <div class="header">
-                    
+                    <button class="loginButton">Logg inn</button>
                 </div>
                 <div class="profile">
                     
