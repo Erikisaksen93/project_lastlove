@@ -1,4 +1,4 @@
-potentialMatchesView();
+// potentialMatchesView();
 function potentialMatchesView() {
     let match = model.possibleMatches[model.possibleMatchesIndex];
     let html = '';

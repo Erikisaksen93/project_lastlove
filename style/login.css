@@ -4,22 +4,41 @@
     font-family: 'Poppins', sans-serif;
 } */
 
+.loginButton {
+    position: relative;
+    left: 90vw;
+    top: 1vh;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.loginButton:hover {
+    background-color: rgb(101, 214, 101);
+}
+
 
 .headline {
     position: relative;
-    left: 1vw;
+    left: 2vw;
     font-size: 2.5em;
 }
 
 .navigate {
     position: relative;
     left: 10vw;
-    top: 15vh;
+    top: 5vh;
 }
 
 .registerButtons {
     position: relative;
     left: 1vw;
+    top: 3vh;
     width: 250px;
     height: 50px;
     border-radius: 30px;
@@ -45,9 +64,12 @@
 
 .inputForQuestions {
     position: relative;
-    left: 6vw;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    left: 2.5vw;
+    top: 2.5vh;
     border-radius: 30px;
-    width: 5vw;
+    width: 12vw;
     height: 4vh;
     font-size: 1.1em;
     text-align: center;
