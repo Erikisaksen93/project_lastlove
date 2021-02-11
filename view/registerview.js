@@ -7,7 +7,7 @@ function registerView() {
     html += `
             <div class="mainContent">
                 <div class="header">
-
+                
                 </div>
                 <div class="profile">
 
