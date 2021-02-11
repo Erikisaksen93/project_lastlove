@@ -18,6 +18,8 @@
 }
 
 .registerButtons {
+    position: relative;
+    left: 1vw;
     width: 250px;
     height: 50px;
     border-radius: 30px;
@@ -35,8 +37,19 @@
 .navigateQuestion {
     position: relative;
     left: -1vw;
-    width: 310px;
+    width: 330px;
     height: 80px;
     font-size: 1.5em;
     text-align: center;
+}
+
+.inputForQuestions {
+    position: relative;
+    left: 6vw;
+    border-radius: 30px;
+    width: 5vw;
+    height: 4vh;
+    font-size: 1.1em;
+    text-align: center;
+
 }
