@@ -16,6 +16,45 @@ const model = {
         userpassword: '',
     },
 
+    users: [
+        {
+            id: 0,
+            username: 'Erik.isaks1@gmail.com',
+            password: 123,
+            firstname: 'Erik',
+            surname: 'Isaksen',
+            age: 28,
+            gender: 'Mann',
+            genderWanted: 'Kvinne',
+            phone: 40101286,
+            zip: 3213,
+        },
+        {
+            id: 1,
+            username: 'laila@mail.no',
+            password: 123,
+            firstname: 'Laila',
+            surname: 'Gunnhildsen',
+            age: 77,
+            gender: 'Kvinne',
+            genderWanted: 'Mann',
+            phone: 90023225,
+            zip: 5023,
+        },
+        {
+            id: 2,
+            username: 'per@mail.no',
+            password: 123,
+            firstname: 'Per',
+            surname: 'Hakekors',
+            age: 92,
+            gender: 'Mann',
+            genderWanted: 'Mann',
+            phone: 12345687,
+            zip: 9001,
+        },
+    ],
+
     mainPage: {
 
     },

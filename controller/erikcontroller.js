@@ -1,4 +1,28 @@
 let questions;
+let loginUsername = model.login.username;
+let loginPassword = model.login.password;
+
+const getUsername = (username) => {
+    loginUsername = username;
+    console.log(loginUsername)
+}
+
+const getPassword = (password) => {
+    loginPassword = password;
+    console.log(loginPassword)
+}
+
+const checkLogin = () => {
+    for (let i = 0; i < model.users.length; i++) {
+        if (loginUsername == model.users[i].username && loginPassword == model.users[i].password) {
+            mainpageView();
+        } else { return };
+    };
+}
+
+const checkPassword = (password) => {
+    console.log(password)
+}
 
 const getZip = (value) => {
     model.register.zipcode = parseInt(value);

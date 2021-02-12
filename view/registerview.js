@@ -7,7 +7,7 @@ function registerView() {
             <div class="mainContent">
             <img id="loginImage" src="./images/hands.jpg">
                 <div class="header">
-                    <button class="loginButton">Logg inn</button>
+                    <button class="loginButton" onclick="loginView();">Logg inn</button>
                 </div>
                 <div class="profile">
                     
