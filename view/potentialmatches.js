@@ -24,7 +24,7 @@ function potentialMatchesView() {
                 <div id="" class="userProfileInfo">Søker en ${match.genderWanted}</div>
                 <div id="" class="userProfileInfo">${match.zipcode}</div>
                 <div id="userProfileDescription" class="userProfileInfo">Litt om meg:<br><br>${match.description}</div>
-                <button id="potentialMatchesNextButton">Neste Single</button>
+                <button id="potentialMatchesNextButton" onclick="nextPotentialMatch()">Neste Single</button>
             </div>
         </div>
         <div class="footer">
