@@ -1,5 +1,6 @@
 function nextPotentialMatch() {
-    if (model.possibleMatchesIndex < model.possibleMatches.length) {
+    console.log(model.possibleMatchesIndex, model.possibleMatches.length)
+    if (model.possibleMatchesIndex < model.possibleMatches.length-1) {
         model.possibleMatchesIndex++;
         potentialMatchesView();
     }
