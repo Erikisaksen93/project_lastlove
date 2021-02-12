@@ -4,6 +4,23 @@
     font-family: 'Poppins', sans-serif;
 } */
 
+.mainContent {
+    /* background-image: url('/images/hands.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-x: 0vw;
+    background-position-y: -20vh; */
+}
+
+img {
+    position: absolute;
+    top: -250px;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+
 .loginButton {
     position: relative;
     left: 90vw;
@@ -29,10 +46,23 @@
     font-size: 2.5em;
 }
 
+.headline2 {
+    position: relative;
+    left: 10.5vw;
+    font-size: 1.5;
+    font-weight: 300;
+}
+
+#emp {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
 .navigate {
     position: relative;
     left: 10vw;
     top: 5vh;
+    font-weight: 900;
 }
 
 .registerButtons {
@@ -74,3 +104,5 @@
     font-size: 1.1em;
     text-align: center;
 };
+
+ 

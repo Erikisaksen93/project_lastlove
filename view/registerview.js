@@ -5,6 +5,7 @@ function registerView() {
 
     html = `
             <div class="mainContent">
+            <img src="./images/hands.jpg">
                 <div class="header">
                     <button class="loginButton">Logg inn</button>
                 </div>
@@ -13,6 +14,7 @@ function registerView() {
                 </div>
                 <div class="content">
                     <h4 class="headline">Velkommen til <i>Siste kjærlighet</i> 💕</h4>
+                    <h3 class="headline2">En dating side for <span id="emp">de over 60.</span></h3>
                     <div class="navigate">
                         <div id="questions">
                             <p class="navigateQuestion">
@@ -28,7 +30,7 @@ function registerView() {
                 </div>
             </div>
            `;
-
            htmlDiv.innerHTML += html;
 };
+
 

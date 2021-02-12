@@ -21,7 +21,7 @@ const model = {
     },
 
     userProfile: {
-        firstname: 'Kåre',
+        firstname: 'Lupé',
         age: '70',
         gender: 'Mann',
         genderWanted: 'Kvinne',
@@ -45,7 +45,7 @@ const model = {
         {
             firstname: 'Gunn',
             age: '78',
-            gender: 'Mann',
+            gender: 'Kvinne',
             genderWanted: 'Mann',
             profile_image: 'grid.png',
             zipcode: 'Må endres(by)',
