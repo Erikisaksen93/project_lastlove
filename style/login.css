@@ -12,7 +12,7 @@
     background-position-y: -20vh; */
 }
 
-img {
+#loginImage {
     position: absolute;
     top: -250px;
     width: 100%;
@@ -92,6 +92,26 @@ img {
     text-align: center;
 }
 
+.inputLabel {
+    position: relative;
+    left: 6vw;
+    top: 3vh;
+    text-align: center;
+}
+
+.inputForLogin {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    left: 0vw;
+    top: 2.5vh;
+    border-radius: 30px;
+    width: 15vw;
+    height: 4vh;
+    font-size: 1.1em;
+    text-align: center;
+}
+
 .inputForQuestions {
     position: relative;
     margin-top: 15px;
@@ -104,5 +124,9 @@ img {
     font-size: 1.1em;
     text-align: center;
 };
+
+
+
+
 
  

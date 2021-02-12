@@ -5,7 +5,7 @@ function registerView() {
 
     html = `
             <div class="mainContent">
-            <img src="./images/hands.jpg">
+            <img id="loginImage" src="./images/hands.jpg">
                 <div class="header">
                     <button class="loginButton">Logg inn</button>
                 </div>
