@@ -30,4 +30,5 @@ function registerView() {
            `;
 
            htmlDiv.innerHTML += html;
-}
+};
+
