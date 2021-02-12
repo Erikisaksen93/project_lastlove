@@ -31,7 +31,7 @@ const model = {
 
     },
 
-    possibleMatchesIndex: 1,
+    possibleMatchesIndex: 0,
     possibleMatches: [
         {
             firstname: 'Sara',
